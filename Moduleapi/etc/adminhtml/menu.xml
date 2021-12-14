@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:noNamespaceSchemaLocation="../../../Backend/etc/menu.xsd">
+    <menu>
+        <add id="Samplevendor_Moduleapi::main_menu" title="WpLegal Pages" module="Samplevendor_Moduleapi" sortOrder="20" resource="Samplevendor_Moduleapi::menu" />
+        <add id="Samplevendor_Moduleapi::wizard" title="Wizard" module="Samplevendor_Moduleapi" sortOrder="10" parent="Samplevendor_Moduleapi::main_menu" action="wplegalpages/wizard/index" resource="Samplevendor_Moduleapi::menu"/>
+    </menu>
+</config>
